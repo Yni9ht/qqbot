@@ -2,7 +2,7 @@
 
 本文档主要针对 qqbot 的设计进行了描述，包括一些功能点的设计细节。
 
-[官方简介](https://bot.q.qq.com/wiki/#%E7%AE%80%E4%BB%8B) ｜ [官方 API 文档](https://bot.q.qq.com/wiki/develop/api/)
+[使用文档](../README.md) | [官方简介](https://bot.q.qq.com/wiki/#%E7%AE%80%E4%BB%8B) | [官方 API 文档](https://bot.q.qq.com/wiki/develop/api/)
 
 ## 介绍
 ![img.png](功能图.png)
