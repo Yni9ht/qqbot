@@ -107,6 +107,7 @@ func handleClockIn(data *model.WSATMessageData) {
 func handleDefaultAtMessage(data *model.WSATMessageData) {
 	msg := model.OpenAPIMessageReq{
 		Content: "您好，我暂时无法处理该信息哦。",
+		MsgID:   data.ID,
 		MessageReference: &model.MessageReference{
 			// 引用这条消息
 			MessageID:             data.ID,
